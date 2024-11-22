@@ -1,0 +1,436 @@
+@import url(../font/Nanci\ Pinio.otf);
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    background-color: #881111c5 ;
+    width: 100%;
+    height: 100%;
+    max-width: 1200px;
+    font-family: 'Roboto', Verdana, Geneva, Tahoma, sans-serif ;
+    margin: 10px auto;
+}
+body{
+    width: 100%;
+    max-width: 1200px;
+    background-image: url(../images/fondo1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header .encabezado{
+    background-image: url(../images/banner4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 260px;
+    width: 100%;
+    max-width: 1200px;
+    position: fixed;
+    border:5px solid brown;
+    border-style:double;
+    
+   
+}
+
+button{
+    color: aliceblue;
+    background-color:rgb(148, 23, 23);
+    width: max-content;
+    height: 30px;
+    margin: 10px;
+    border-radius: 30px;
+    font-size: 1.3rem ;
+    box-shadow: 3px 3px 3px 3px brown;
+}
+button:hover{
+    animation:scale-up-horizontal-center 0.4s;
+    animation-duration: 1s;       
+    animation-delay: 0.4s;
+} 
+@keyframes scale-up-horizontal-center{
+    0%{transform:scaleX(.2)}100%{transform:scaleX(1)}
+}
+
+
+nav{
+    color: white;
+    width: 100%;
+    height: 30px;
+    display: flex;
+    position: absolute;
+    bottom: -40px;
+    left: 82px;
+}
+.nav2 img{
+    position: relative;
+    animation-name: girar2;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    bottom: 210px;
+    left: 970px;
+    border-radius: 120px;
+    border: 7px solid rgb(139, 41, 41);
+    height: 120px;
+    width: 120px;
+    padding: -11px;
+    box-shadow:3px 1px 3px 2px;
+
+}
+
+
+nav img{
+    position: relative;
+    animation-name: girar;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    bottom: 210px;
+    left: -35px;
+    border-radius: 120px;
+    border: 7px solid rgb(139, 41, 41);
+    height: 120px;
+    width: 120px;
+    padding: -11px;
+    box-shadow:3px 1px 3px 2px;
+}
+
+nav a{
+    color: rgb(255, 255, 255);
+    box-shadow: 3px 1px 3px 2px rgb(114, 17, 17);
+    text-decoration: none;
+    width: 194px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+}
+
+main{
+    min-height: 70vh;
+    padding: 330px 35px ;
+    padding-bottom: 0px;
+}
+
+main .main1{
+    
+    justify-content: space-between;
+    margin-block: 2px;
+    min-height: 20vh;
+    display: flex;  
+   
+}
+main .main1 .tres1{
+    margin-block: 2px;
+    min-height: 20vh;
+    display: flex;  
+    flex-direction: row;
+}
+main .main1 .tres1 img{
+    width: 322px;
+    height: 165px;
+}
+main .main1 .tres1 .ima1{
+    background-color:white;
+    text-align: center;
+    margin: 10px;
+    border: 6px solid rgb(139, 41, 41);
+    min-width: 33%;
+
+}
+main .main1 .tres1 .ima2{
+    background-color:white;
+    text-align: center;
+    margin: 10px;
+    border: 6px solid rgb(139, 41, 41);
+    min-width: 34%;
+}
+main .main1 .tres1 .ima3{
+    background-color:white;
+    text-align: center;
+    margin: 10px;
+    border: 6px solid rgb(139, 41, 41);
+    min-width: 33%;
+}
+main .uno{
+    margin-block: 2px;
+    min-height: 20vh;
+    display: flex;   
+    flex-direction: column; 
+    margin: 10px;
+    border: 6px solid rgb(139, 41, 41);
+    text-align: center;
+}
+.siete1{
+    background-color:rgb(139, 41, 41) ;
+    color: white;
+    margin-block: 2px;
+    min-height: 20vh;
+    margin: 10px;
+    border: 3px solid rgb(255, 255, 255);
+    text-align: center;
+}
+form{    
+   
+    background-color:rgb(139, 41, 41) ;
+}
+h5{
+    font-size: 17px;
+}
+main .dos{
+    margin-block: 2px;
+    min-height: 30vh;
+    max-height: 55vh;
+    display: flex;   
+    flex-direction: row; 
+    margin: 30px;
+    text-align: center;
+
+}
+main .dos img{
+    min-width: 30%;
+}
+main .dos .dos1{
+    min-height: 70%;
+    flex-direction: column; 
+    text-align: center;
+    align-content: center;
+    align-items: center;
+
+}
+main .seis{
+    margin-block: 10px;
+    min-height: 20vh;
+    display: flex;   
+    flex-direction: row; 
+    margin: 35px;
+    text-align: center;  
+} 
+main .seis .seis1{
+    flex-direction: column; 
+    min-width: 65%;
+    margin: 5px;
+
+}
+main .seis .seis2{
+    min-width: 35%;
+    margin: 5px;
+}
+
+main .siete1{
+    text-align: center;
+    align-content: center;
+    align-items: center;
+}
+main .testimonios{
+    margin: 6px;
+    border: 4px solid rgb(139, 41, 41);
+}
+main .testimonios1{
+    margin: 8px;
+    width: 100%;
+    min-height:10vh;
+    display: flex;
+    flex-direction: row;
+}
+h3{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    text-align: center ;
+}
+h4{
+    color: aliceblue;
+    background-color: rgb(255, 0, 0);
+}
+footer{
+    background-color: rgba(119, 20, 20, 0.801);
+    color: black;
+    font-size: .875rem;
+    text-align: center;
+}
+
+footer a{
+    color: rgb(255, 248, 248);
+}
+footer img{
+    width: 40px;
+    padding: 2px;
+}
+footer p{
+    text-align: center;
+}
+p{
+    text-align: justify;
+    line-height: 23px;
+    padding-bottom: 25px;
+}
+img{
+    width: 100%;
+}
+.lefth{
+    float: left;
+    width: 330px;
+    padding: 0 30px;
+}
+.right{
+    float: right;
+    width: 330px;
+    padding: 0 30px;
+}
+.clear{
+    clear: both;
+}
+h2{
+    font-family: 'campana', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(31, 31, 31);
+}
+
+
+@media (max-width: 900px){
+    nav{
+        display: flex;
+        flex-direction: column;  
+        left: 4px;
+        bottom: 180px;
+          
+    }
+    nav a{
+        width:20%;
+        margin: 2px;
+        font-size: 15px;
+    }
+   
+    button{
+        width:180px;
+        margin: 2px;
+         
+}
+}
+
+@media (max-width: 920px){
+    .tres1{
+        
+        flex-direction: 2 row;
+        flex-wrap: wrap;
+    }
+    .ima1 .ima2 .ima3{
+        flex: 1 1 50%;
+        max-width: 70%;
+   
+}
+}
+
+@media (max-width: 800px){
+    .tres1{
+        
+        flex-direction: row;
+        flex-wrap:wrap;
+    }
+    .ima1{
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+    .ima2{
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+    .ima3{
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 800px){
+    .dos{
+        
+        flex-direction: row;
+        flex-wrap: wrap;
+        
+    }
+    .dos1{
+        margin: 5px;
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+    img{ 
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+}
+@media (max-width: 800px){
+    .seis{
+        justify-content: center;
+        padding-top: 60%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        
+    }
+    .seis1{
+        margin: 7px;
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+    img{ 
+        margin: 5px;
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+}
+
+
+@keyframes girar {
+    /* from - to (dos fotogramas) */
+
+    0% {
+        border-radius: 120px;
+        border: 7px solid rgb(255, 238, 0); 
+        bottom: 230px;
+        left: -40px;
+    }
+    50% {
+        border-radius: 120px;
+        border: 7px solid rgb(255, 0, 0); 
+        bottom: 200px;
+        left: -40px;
+    }
+    100% {
+        border-radius: 120px;
+        border: 7px solid rgb(139, 41, 41); 
+        bottom: 180px;
+        left: -40px;
+    }
+}
+@keyframes girar2 {
+    /* from - to (dos fotogramas) */
+
+    0% {
+        border-radius: 120px;
+        border: 7px solid rgb(255, 238, 0); 
+        bottom: 180px;
+        left: 970px;
+    }
+    50% {
+        border-radius: 120px;
+        border: 7px solid rgb(255, 0, 0); 
+        bottom: 200px;
+        left: 970px;
+    }
+    100% {
+        border-radius: 120px;
+        border: 7px solid rgb(139, 41, 41); 
+        bottom: 230px;
+        left: 970px;
+    }
+}
+
+
+
+
